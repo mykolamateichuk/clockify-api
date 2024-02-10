@@ -38,24 +38,14 @@
     pip install -r requirements.txt
     ```
 
-4) Either create .env file or set environment variable in terminal
-    
-    **Create .env file**
+4) Create .env file containing environment variables
 
-    Create `.env` file and paste this line in it `CLOCKIFY_API_KEY={your api key}`
-
-    **Set environment variable in terminal**
-    
-    MacOS
-    
+    Create `.env` file and paste this lines in it with right values 
     ```
-    export CLOCKIFY_API_KEY={your api key}
-    ```
-   
-    Windows 
-
-    ```
-    set CLOCKIFY_API_KEY={your api key}
+    CLOCKIFY_API_KEY={your api key}
+    WORKSPACE_ID={your workspace id}
+    PROJECT_ID={your project id}
+    USER_ID={your user id}
     ```
 
 5) Launch script
